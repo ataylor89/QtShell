@@ -16,7 +16,7 @@ protected:
 private slots:
     void setPrefix(QString prefix);
     QString getPrefix();
-    void read();
+    void runCommand(QString command);
 
 private:
     QProcess *interpreter;
